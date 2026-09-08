@@ -28,15 +28,6 @@ into a light, editorial feel that fits a UI/UX-and-data-minded developer:
 | `Magnet` | Nav links + CTA buttons | none |
 | `ClickSpark` | Click feedback across the page | none |
 
-## Content sources
-
-- Resume: name, summary, skills, IdeaBank + Yummy Restaurant project detail
-  (including the quantified metrics), education, certifications, contact.
-- GitHub (sahibaGalaxy02): pinned repos HelpCity, Taskflow, and
-  Watch-Together, listed under "More builds" since the resume doesn't
-  detail them — add bullets for these in `src/data/content.js` once you
-  have specifics to share.
-
 ## Getting started
 
 ```bash
@@ -44,11 +35,3 @@ npm install
 npm run dev       # http://localhost:5173
 npm run build
 ```
-
-## Next steps
-
-- Swap in a live-preview link for IdeaBank if one exists (resume mentions
-  one but doesn't give the URL).
-- Add detail bullets for HelpCity, Taskflow, and Watch-Together once
-  you're ready to write them up as full case studies.
-- Add a LinkedIn/GitHub icon set instead of text links in the footer, if desired.
